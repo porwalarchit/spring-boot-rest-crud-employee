@@ -33,6 +33,11 @@ public class Employee {
 
     // define getter/setter
 
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -68,4 +73,5 @@ public class Employee {
                 ", email='" + email + '\'' +
                 '}';
     }
+
 }
